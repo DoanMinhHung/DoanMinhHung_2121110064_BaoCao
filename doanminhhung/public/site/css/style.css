@@ -1,0 +1,551 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+}
+.bg-info
+{
+    background-color: aqua;
+}
+.bg-danger
+{
+    background-color: red;
+}
+.bg-success
+{
+    background-color: green;
+}
+/*Hinh*/
+img.img-fluid
+{
+    max-width: 100%;
+}
+/*padding*/
+.p-0
+{
+    padding: 0px;
+}
+.p-1
+{
+    padding: 5px;
+}
+.p-2
+{
+    padding: 8px;
+}
+.p-3
+{
+    padding: 13px;
+}
+.p-4
+{
+    padding: 16px;
+}
+.p-5
+{
+    padding: 20px;
+}
+.py-1
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.py-2
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.py-3
+{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.py-4
+{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.py-5
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*margin*/
+.m-0
+{
+    margin: 0px;
+}
+.m-1
+{
+    margin: 5px;
+}
+.m-2
+{
+    margin: 8px;
+}
+.m-3
+{
+    margin: 13px;
+}
+.m-4
+{
+    margin: 16px;
+}
+.m-5
+{
+    margin: 20px;
+}
+.my-1
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.my-2
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.my-3
+{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.my-4
+{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.my-5
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*Text Alight*/
+.text-center
+{
+    text-align: center;
+}
+.text-left
+{
+    text-align: left;
+}
+.text-right
+{
+    text-align: right;
+}
+.text-justify
+{
+    text-align: justify;
+}
+.text-dark
+{
+    color: black;
+}
+.text-white, .text-light
+{
+    color: #fff;
+}
+.text-bold
+{
+  font-weight: bold;
+    
+}
+.lammo
+{
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-top: 5px;
+    color: #888888;
+}
+.lammo1
+{
+    display: block;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #323c42;
+}
+.lammo2
+{
+    display: block;
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #323c42;
+}
+.lammo3
+{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-top: 5px;
+    color: #888888;
+}
+.lammo4
+{
+    display: block;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #323c42;
+}
+.size
+{
+    size: 20px;
+}
+.h4chucuoi
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6
+{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4px;
+}
+.chubh
+{
+    text-align: center;
+    text-emphasis: none;
+    text-transform: none;
+}
+.border-top 
+{
+    border-top: 1px solid rgb(168, 164, 164);
+}
+.clearfix::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+.container
+{
+    width: 1280px;
+    margin: auto;
+}
+.row
+{
+    width: 100%;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12
+{
+    float: left;
+}
+.col-1
+{
+    width: 8.33%;
+}
+.col-2
+{
+    width: 16.66%;
+}
+.col-3
+{
+    width: 25%;
+}
+.col-4
+{
+    width: 33.33%;
+}
+.col-5
+{
+    width: 41.66%;
+}
+.col-6
+{
+    width: 50%;
+}
+.col-7
+{
+    width: 58.33%;
+}
+.col-8
+{
+    width: 66.66%;
+}
+.col-9
+{
+    width: 75%;
+}
+.col-10
+{
+    width: 83.33%;
+}
+.col-11
+{
+    width: 91.66%;
+}
+.col-12
+{
+    width: 100%;
+}
+
+/*Header*/
+input.search
+{
+    border-radius: 7px;
+    border: 1px solid #bfbdbd;
+    padding: 10px;
+    margin: auto;
+    width: 70%;
+}
+.tuvan
+{
+    font-size: 24px;
+    color: rgb(17, 17, 17);
+    padding: 0px 10px;
+}
+.red
+{
+    color: red;
+}
+.blue
+{
+    color: #526a79;
+}
+.tuvan2
+{
+    font-size: 24px;
+    color: black;
+    padding: 0px 10px;
+}
+/*menu*/
+.bg-mainmenu
+{
+    background-color: #115aec;
+}
+.bg-footer
+{
+    background-color: #24272e;
+}
+ul.menu
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+ul.menu1
+{
+    list-style: none;
+}
+ul.menu>li
+{
+    float: left;
+}
+ul.menu>li>a
+{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul.menu ul.submenu
+{
+    display: none;
+    position: absolute;
+    background-color: #f7f8fa;
+    min-width: 200px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    z-index: 999;
+}
+
+ul.menu ul.submenu a
+{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+/* bang nho*/
+ul.menu ul.submenu a:hover
+{
+    background-color: rgb(138, 215, 240);
+}
+ul.menu>li:hover ul.submenu
+{
+    display: block;
+}
+ul.menu>li:hover 
+{
+    background-color: rgb(155, 165, 239);
+    color: rgb(247, 195, 195);
+}
+.logo-img{
+    width: 200px;
+}
+.search span
+{
+    width: 50px;
+    text-align: center;
+}
+.fa-facebook-f {
+    color: white;
+    background: #1877f2;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+    width: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+    .fa-youtube {
+    background: red;
+    color: white;
+    padding: 11px 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    }
+    .fa-tiktok {
+    background: black;
+    color: white;
+    padding: 11px 10px;
+    border-radius: 50%;
+    width: 37px;
+    text-align: center;
+    }
+    .h4chucuoi
+    {
+        margin-top: 15px;
+    }
+    .bg-mainmenu {
+        background-color: #1d3564;
+    }
+    .xanh{
+        color: #1d3564;
+    }
+    .xanhh{
+        background-color: #1d3564;
+    }
+        .form-tt {
+        width: 400px;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 55px 55px 37px;
+        background: #9152f8;
+        background: -webkit-linear-gradient(top,#7579ff,#b224ef);
+        background: -o-linear-gradient(top,#7579ff,#b224ef);
+        background: -moz-linear-gradient(top,#7579ff,#b224ef);
+        background: linear-gradient(top,#7579ff,#b224ef);
+        text-align: center;
+        }
+        .form-tt h2 {
+        font-size: 30px;
+        color: #fff;
+        line-height: 1.2;
+        text-align: center;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 30px;
+        }
+        
+        .form-tt input[type=text], .form-tt input[type=password] {
+        font-family: Poppins-Regular;
+        font-size: 16px;
+        color: #fff;
+        line-height: 1.2;
+        display: block;
+        width: calc(100% - 10px);
+        height: 45px;
+        background: 0 0;
+        padding: 10px 0;
+        border-bottom: 2px solid rgba(255,255,255,.24)!important;
+        border: 0;
+        outline: 0;
+        }
+        .form-tt input[type=text]::focus, .form-tt input[type=password]::focus {
+        color: red;
+        }
+        .form-tt input[type=password] {
+        margin-bottom: 20px;
+        }
+        .form-tt input::placeholder {
+        color: #fff;
+        }
+        .checkbox {
+        display: block;
+        }
+        .form-tt input[type=submit] {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.2;
+        padding: 0 20px;
+        min-width: 120px;
+        height: 50px;
+        border-radius: 25px;
+        background: #fff;
+        position: relative;
+        z-index: 1;
+        border: 0;
+        outline: 0;
+        display: block;
+        margin: 30px auto;
+        }
+        #checkbox {
+        display: inline-block;
+        margin-right: 10px;
+        }
+        .checkbox-text {
+        color: #fff;
+        }
+        .psw-text {
+        color: #fff;
+        }
+        .ho-effect {
+            margin-top: 30px; /* Khoảng cách phía trên */
+            margin-bottom: 30px; /* Khoảng cách phía dưới */
+            padding: 50px; /* Để tạo khoảng cách bên trong phần tử */
+            background-color: #fff; /* Màu nền của phần tử */
+
+          }
+          .xa{
+            margin-bottom: 30px;
+            padding-left: 110px;
+          }
+          .lt{
+            padding-left: 60px;
+          }
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+
